@@ -80,6 +80,8 @@ padding: 90px 20px 0;
     
 .nav{
     display:flex;
+    flex-direction: column;
+    align-items: center;
     justify-content:center;
    
 }
