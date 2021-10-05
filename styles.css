@@ -54,18 +54,26 @@ padding: 90px 20px 0;
     border-radius: 5px;
 
 }
-@media (max-width:400px) {
+@media (max-width:375px) {
     
+.head{
+    background-color:cadetblue;
+    height: 80px;
+    position:fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
 
     .logo{
-        font-size: 15px;
+        font-size: 10px;
         /* font-weight: bold; */
         padding: 0 40px;
         line-height: 80px;
     }
 
     .nav-menu-item{
-        font-size: 15px;
+        font-size: 10px;
         line-height: 50px;
         margin: 0 10px;
     }
@@ -74,5 +82,20 @@ padding: 90px 20px 0;
     display:flex;
     justify-content:center;
    
+}
+
+.nav-menu{
+    display: flex;
+    /* margin-right: 40px; */
+    list-style: none;
+}
+.nav-menu-item{
+    font-size: 10px;
+    /* line-height: 50px; */
+    /* margin: 0 10px; */
+}
+h2{
+    color: beige;
+
 }
 }
