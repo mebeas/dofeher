@@ -54,3 +54,19 @@ padding: 90px 20px 0;
     border-radius: 5px;
 
 }
+@media (max-width:400px) {
+    
+
+    .logo{
+        font-size: 15px;
+        /* font-weight: bold; */
+        padding: 0 40px;
+        line-height: 80px;
+    }
+
+    .nav-menu-item{
+        font-size: 15px;
+        line-height: 50px;
+        margin: 0 10px;
+    }
+}
