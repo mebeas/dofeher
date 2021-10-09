@@ -10,7 +10,7 @@ body{
 }
 .line{
     
-        width: 50px;
+        width: 150px;
         height: 10px;
         background-color: red;
         position: relative;
