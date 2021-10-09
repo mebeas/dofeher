@@ -1,12 +1,12 @@
 body{
-display:flex;
-flex-wrap: wrap;
-/* min-height: 100vh; */
-/* background-image: url(images/planetaeco1.jpg); */
-/* opacity: 0.3; */
-background-repeat: no-repeat;
-background-position:unset;
-padding: 90px 20px 0;
+    display:flex;
+    flex-wrap: wrap;
+    /* min-height: 100vh; */
+    /* background-image: url(images/planetaeco1.jpg); */
+    /* opacity: 0.3; */
+    /* background-repeat: no-repeat;
+    background-position:unset; */
+    padding: 90px 20px 0;
 }
 .line{
     
@@ -77,35 +77,28 @@ h1{
 }
 
 .header{
-    color:blanchedalmond;
+    color:black;
     text-align: center;
-    background-color:rgb(4, 21, 71);
-    border-radius: 5px;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* background-color:rgb(4, 21, 71);
+    border-radius: 5px; */
 
 }
 .video{
     display: flex;
     flex-direction: row;
-justify-content: center;
+    justify-content: center;
 }
+
 footer{
     background-color:cadetblue;
-align-self: flex-end;
-width: 100%;
-padding:1em;
-text-align: center;
+    align-self: flex-end;
+    width: 100%;
+    padding:1em;
+    text-align: center;
 
-}
-.foot{
-    /* background-color:cadetblue; */
-    /* display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-   
-    align-self: flex-end; */
-   
-    
-    
 }
 p{
     color:white;
